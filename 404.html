@@ -17,32 +17,32 @@
     }
 
     .error-container {
-      max-width: 600px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 200px; /* 600px divided by 3 */
+      padding: 7px; /* 20px divided by 3 */
+      border-radius: 3.33px; /* 10px divided by 3 */
+      box-shadow: 0 0 3.33px rgba(0, 0, 0, 0.1); /* 10px divided by 3 */
       background-color: #333;
       color: #fff;
-      transform: scale(3);
+      transform: scale(0.33); /* 1 divided by 3 */
     }
 
     .error-code {
-      font-size: 80px;
+      font-size: 26.67px; /* 80px divided by 3 */
       color: #e74c3c;
     }
 
     .error-message {
-      font-size: 24px;
-      margin: 20px 0;
+      font-size: 8px; /* 24px divided by 3 */
+      margin: 6.67px 0; /* 20px divided by 3 */
     }
 
     .home-link {
       text-decoration: none;
-      padding: 10px 20px;
-      border-radius: 5px;
+      padding: 3.33px 6.67px; /* 10px divided by 3 */
+      border-radius: 1.67px; /* 5px divided by 3 */
       background-color: #000000; /* Dark Green */
       color: #02a32d;
-      font-size: 18px;
+      font-size: 6px; /* 18px divided by 3 */
       transition: background-color 0.2s ease;
     }
 
@@ -50,13 +50,13 @@
       background-color: gray; /* Slightly Darker Green on Hover */
       color: lightgoldenrodyellow;
     }
-    </style>
-    </head>
-    <body>
-    <div class="error-container">
+  </style>
+</head>
+<body>
+  <div class="error-container">
     <div class="error-code">Error 404</div>
     <div class="error-message">Oops! The page you're looking for could not be found.</div>
     <a href="404.html" class="home-link">Go back to Home</a>
-    </div>
-    </body>
-    </html>
+  </div>
+</body>
+</html>
