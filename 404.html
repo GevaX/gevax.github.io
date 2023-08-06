@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test Website</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #222;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    .error-container {
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #333;
+      color: #fff;
+      transform: scale(3);
+    }
+
+    .error-code {
+      font-size: 80px;
+      color: #e74c3c;
+    }
+
+    .error-message {
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+    .home-link {
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #000000; /* Dark Green */
+      color: #02a32d;
+      font-size: 18px;
+      transition: background-color 0.2s ease;
+    }
+
+    .home-link:hover {
+      background-color: gray; /* Slightly Darker Green on Hover */
+      color: lightgoldenrodyellow;
+    }
+    </style>
+    </head>
+    <body>
+    <div class="error-container">
+    <div class="error-code">Error 404</div>
+    <div class="error-message">Oops! The page you're looking for could not be found.</div>
+    <a href="404.html" class="home-link">Go back to Home</a>
+    </div>
+    </body>
+    </html>
