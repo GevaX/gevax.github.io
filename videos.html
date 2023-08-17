@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" type="text/css" href="libs/css/main.css">
+  <link rel="stylesheet" type="text/css" href="libs/css/main.css" >
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.4.0/balloon.min.css">
   <link rel="stylesheet" type="text/css" href="libs/ion/css/ionicons.min.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -14,11 +14,15 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-
+<style>
+  h2 {
+    text-align: center;
+  }
+</style>
 <body style="background: #f2f2f3">
 
 <script>
-  jQuery(window).on('load', function () {
+  jQuery(window).on('load',function() {
     jQuery("#preloader").delay(300).fadeOut("slow");
     jQuery("#status").delay(300).fadeOut();
   });
@@ -75,75 +79,59 @@
   </div>
 </div>
 
-<br>
-
 <div class="container">
-  <div class="col-lg-8">
-    <br>
-    <div class="MainNews">
-      <div class="NewsTitle">
-        <h3><b>Welcome to Gargamel SMP Website</b></h3>
-      </div>
-      <div class="col NewsATT">
-        <div>&nbsp;</div>
-        <p>This is the official Gargamel SMP website.
-          Gargamel SMP is a Minecraft SMP based on Lifesteal SMP and many more plugins.</p>
-      </div>
-    </div>
-    <br>
-    <div class="MainNews">
-      <div class="NewsTitle">
-        <h3><b>Coming soon! Season 3</b></h3>
-      </div>
-      <div class="col NewsATT">
-        <div>&nbsp;</div>
-        <p>Season 2 has ended, but don't worry! In about 20 days, we will be back with Season 3!
-          With many more features and a lot of admin abuse!
-          Stay tuned on our Discord server.</p>
-      </div>
-    </div>
-  </div>
-
   <div class="row">
-    <br>
-    <div class="col-lg-4">
-      <div id="feature" class="MainNews-c">
-        <div class="NewsTitle-c text-center">
-          <h3><b>Team</b></h3>
-        </div>
-        <div class="col NewsATT-c">
-          <div>&nbsp;</div>
-          <center>
-            <div>
-              <img src="libs/img/skins/dev_geva.png" alt="Dev_Geva's Minecraft Skin" width="100">
-              <p style="font-size: larger;">Dev_Geva</p>
-              <p style="font-size: larger;">Owner & Main Developer</p>
+    <div class="col-md-12">
+      <h2>Videos</h2>
+      <div class="video-container">
+        <div class="video-wrapper">
+          <!-- Embed the YouTube videos using the provided iframe code -->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CXXvEsP_cjM" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
-            <div>
-              <img src="libs/img/skins/barvz.png" alt="Barvz's Minecraft Skin" width="100">
-              <p style="font-size: larger;">Barvz</p>
-              <p style="font-size: larger;">Discord & MC Admin</p>
+            <div class="col-md-6">
+              <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VKVY--hwZHw" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
-            <div>
-              <img src="libs/img/skins/theholojay264.png" alt="Theholojay264's Minecraft Skin" width="100">
-              <p style="font-size: larger;">Theholojay264</p>
-              <p style="font-size: larger;">Discord Moderator</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8EpKGo40VHE" frameborder="0" allowfullscreen></iframe>
+              </div>
             </div>
-          </center>
+            <div class="col-md-6">
+              <div class="video-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vZvRErnmRcE" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="video-item" style="text-align: center;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nl6uurkVzGM" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
-
-  <br>
-  <br>
-  <center>
-    <footer style="background:#18191b ; color: white ; padding: 14px">
-      <h5>&copy; <b>Gargamel SMP</b> - Github: <a href="https://github.com/GevaX/gevax.github.io" target="_blank"><img draggable="false" src="libs/img/github-logo.png" width="100" style="margin-top: -1px;"></a></h5>
-    </footer>
-  </center>
 </div>
 
+<br>
+<center>
+  <footer style="background:#18191b ; color: white ; padding: 14px">
+    <h5>&copy; <b>Gargamel SMP</b> - Github: <a href="https://github.com/GevaX/gevax.github.io" target="_blank"><img draggable="false" src="libs/img/github-logo.png" width="70" style="margin-top: -1px;"></a></h5>
+  </footer>
+</center>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
