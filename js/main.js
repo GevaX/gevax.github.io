@@ -1,6 +1,6 @@
 function bclick()
 {
-  window.open("https://youtu.be/gh36do2Zkfg", "_blank");
+  window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", "_blank");
   setTimeout(1000)
-  alert("Got gargamel smped!");
+  alert("Got rickrolled!");
 }
