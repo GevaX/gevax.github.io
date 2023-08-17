@@ -13,12 +13,56 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .button-container {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 25px;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    .btn-primary {
+      background-color: grey;
+      color: white;
+    }
+    .btn-primary:hover {
+      background-color: black;
+    }
+    .btn-primary:focus {
+      background-color: grey;
+    }
+    /* Add your custom styles for the TOS page here */
+    body {
+      background: #f2f2f3;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 50px;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 30px;
+      text-align: center;
+    }
+    footer {
+      background: #18191b;
+      color: white;
+      padding: 14px;
+      text-align: center;
+    }
+  </style>
 </head>
-<style>
-  h2 {
-    text-align: center;
-  }
-</style>
+
 <body style="background: #f2f2f3">
 
 <script>
@@ -79,51 +123,22 @@
     </div>
   </div>
 </div>
+</div>
 
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h2>Videos</h2>
-      <div class="video-container">
-        <div class="video-wrapper">
-          <!-- Embed the YouTube videos using the provided iframe code -->
-          <div class="row">
-            <div class="col-md-6">
-              <div class="video-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/CXXvEsP_cjM" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="video-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/VKVY--hwZHw" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="video-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/8EpKGo40VHE" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="video-item">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/vZvRErnmRcE" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="video-item" style="text-align: center;">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/nl6uurkVzGM" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
+      <h1>Legal Documents</h1>
+      <p>Please review our legal documents:</p>
+      <div class="button-container">
+        <a href="docs/tos.pdf" class="btn btn-primary" target="_blank">Terms of Service</a>
+      </div>
+      <div class="button-container">
+        <a href="docs/privacy.pdf" class="btn btn-primary" target="_blank">Privacy Policy</a>
       </div>
     </div>
   </div>
 </div>
-
 <br>
 <center>
   <footer style="background:#18191b ; color: white ; padding: 14px">
@@ -132,7 +147,6 @@
 </center>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="libs/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
