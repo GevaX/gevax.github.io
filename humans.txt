@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Geva -- Main Developer -- gevax
 
 # THANKS
 
-    <name>
+    Geva
 
 # TECHNOLOGY COLOPHON
 
